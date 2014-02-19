@@ -20,7 +20,17 @@ Version: 1.0
 
 @import '../ecommerce/style.css';
 
-@import 'fonts/stylesheet.css';
+/*@import 'fonts/stylesheet.css';*/
+@font-face {
+    font-family: 'HotelCoralEssexRegular';
+    src: url('fonts/hotel_coral_essex-webfont.eot');
+    src: url('fonts/hotel_coral_essex-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/hotel_coral_essex-webfont.woff') format('woff'),
+         url('fonts/hotel_coral_essex-webfont.ttf') format('truetype'),
+         url('fonts/hotel_coral_essex-webfont.svg#HotelCoralEssexRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 
