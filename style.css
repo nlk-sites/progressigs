@@ -892,94 +892,86 @@ input.nobtn { border: none; padding: 0; width: auto; height: auto; background: n
 
 
 /* ---------------------------- Wher to Buy Page -------------------------------------- */
+	.sidebar.left{ float:left; }
+	.sidebar .sup_img {
+		margin-bottom: 20px;
+	}
 
+	#sl_div {
+		float: right;
+		width: 680px;
+	}
 
-.sidebar.left{ float:left; }
-
-.sidebar .sup_img {
-	margin-bottom: 20px;
-}
-
-#sl_div {
-	float: right;
-	width: 680px;
-}
-#address_search {
-	position: relative;
-	padding-left: 70px;
-	background: url(http://local.nlk/progressigs/wp-content/themes/progressigs/images/wheretobuy-head.png) no-repeat 50% 0;
-	height: 110px;
-}
-#sl_div #radius_in_submit {
-	position: absolute;
-	right: 28px;
-	top: 34px;
-}
-#sl_div #radius_in_submit input[type="submit"] {
-	background: #000;
-	border: none;
-	border-radius: 15px;
-	color: #fff;
-	cursor: pointer;
-	display: block;
-	font-size: 15.5px;
-	height: 29px;
-	width: 132px;
-}
-
-
-div#sl_div div#map {
-width: 646px;
-height: 700px;
-margin: auto;
-}
-
-#sl_div #searchForm .search_item {
-	display: inline-block;
-	padding-top: 18px;
-}
-
-#sl_div #searchForm input#addressInput {
-	width: 60px;
-}
-
-#address_search > div {
-margin-top: 16px;
-margin-right: 20px;
-}
-div#sl_div div#address_search label {
-	text-align: left;
-	font-size: 18px;
-	max-width: 70px;
-	font-weight: bold;
-
-}
-#address_search select {
-	position: relative;
-	height: 40px;
-	top: -10px;
-}
-#sl_div #searchForm input#addressInput {
-	width: 60px;
-	height: 30px;
-	top: -10px;
-	position: relative;
-}
-
-#map_sidebar:before {
-	content: "Results";
-	font-weight: bold;
-	font-size: 24px;
-}
-
-#map_sidebar {
-	width: 648px;
-	margin: 20px auto 10px;
-}
-#map_sidebar div.results_entry {
-	padding: 10px 0;
-	border-bottom: 2px solid #F2F2F2;
-}
-#map_sidebar div.results_entry span.location_name {
-	color: #000;
-}
+	/* search form */
+		#sl_div #address_search {
+			position: relative;
+			padding-left: 70px;
+			background: url(http://local.nlk/progressigs/wp-content/themes/progressigs/images/wheretobuy-head.png) no-repeat 50% 0;
+			height: 110px;
+		}
+		#sl_div #address_search > div.search_item {
+			margin: 22px 32px;
+			display: inline-block;
+		}
+		/* labels */
+		div#sl_div #searchForm div#address_search label {
+			display: block;
+			text-align: center;
+			font-size: 18px;
+			font-weight: bold;
+			margin-bottom: 10px;
+			padding: 0; 
+			width: auto;
+		}
+		/* inputs */
+		#sl_div #searchForm #address_search select,
+		#sl_div #searchForm #address_search input#addressInput {
+			position: relative;
+		}
+		#sl_div #searchForm #address_search select {
+			width: 130px;
+		}
+		#sl_div #searchForm #address_search input#addressInput {
+			width: 80px;
+		}
+		/* submit btn */
+			#sl_div #radius_in_submit {
+				position: absolute;
+				right: 28px;
+				top: 34px;
+			}
+			#sl_div #radius_in_submit input[type="submit"] {
+				background: #000;
+				border: none;
+				border-radius: 15px;
+				color: #fff;
+				cursor: pointer;
+				display: block;
+				font-size: 15.5px;
+				height: 29px;
+				width: 132px;
+			}
+	/* map */
+		#sl_div #map {
+			width: 646px;
+			height: 700px;
+			margin: auto;
+		}
+	/* results */
+		#map_sidebar:before {
+			content: "Results";
+			font-weight: bold;
+			font-size: 24px;
+		}
+		#map_sidebar {
+			width: 648px;
+			margin: 20px auto 10px;
+		}
+		#map_sidebar div.results_entry {
+			padding: 10px 0;
+			border-bottom: 2px solid #F2F2F2;
+		}
+		#map_sidebar div.results_entry span.location_name {
+			color: #000;
+		}
+/* ---------- end where to buy ----------- */
