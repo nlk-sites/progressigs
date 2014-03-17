@@ -124,7 +124,7 @@ body{ font-size:13px; color:#333; font-family:Arial, Helvetica, sans-serif; back
 
 	.nav li a:hover { color: #a06800; text-decoration: none }
 
-	.nav li a span{ float:left; padding:0 32px; text-transform:uppercase }
+	.nav li a span{ float:left; padding:0 29px; text-transform:uppercase }
 
 	.nav>li.current-menu-item>a,
 
